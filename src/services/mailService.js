@@ -1,5 +1,6 @@
 const {MailerConfig} = require('../config');
 const AppError = require('../utils/errors/appError');
+const { StatusCodes } = require('http-status-codes');
 
 async function sendMail(data){
     try {
